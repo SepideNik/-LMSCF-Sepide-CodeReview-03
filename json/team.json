@@ -1,0 +1,24 @@
+
+var teamMembers = `[{
+	"MemberId":"1",
+	"name":"Neda",
+	"family":"Ghajarieh",
+	"tel":"087654678",
+	"email":"Ghajarieh@gmail.com",
+	"image":"img/member1.jpg"
+},{
+	 
+	"MemberId":"2",
+	"name":"Arash",
+	"family":"Karimzadeh",
+	"tel":"03647589",
+	"email":"Karimzadeh@gmail.com",
+	"image":"img/member2.jpg"
+},{
+	"MemberId":"3",
+	"name":"jahangir",
+	"family":"hoseinpour",
+	"tel":"0123876",
+	"email":"hoseinpour@gmail.com",
+	"image":"img/member3.jpg"
+}]`;

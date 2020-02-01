@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<meta name="Viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Happy+Monkey|News+Cycle&display=swap" rel="stylesheet">
+	
+</head>
+<body id="body">
+	<script type="text/javascript"  src="json/home.json"></script>
+	<script type="text/javascript"  src="js/home.js"></script>
+	<header>
+		<div id="Header">
+			<div id="divLogoLeft">
+				<img class="LogoLeft" src="img/logo.png" alt="Code Factory Vienna">
+			</div>
+			<div id="divLogoRight" >
+				<img class="LogoRight" onclick="bannerClick()" src="img/banner.png" alt="Code Factory Vienna">
+			</div>
+		</div>
+		<nav class="Menu navHeader">
+			<ul class="main">
+				<li><a href="#" title="home">Home</a></li>
+				<li><a href="team.html" title="Tech">Team</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="container">
+		<div id="divImgDesc">
+			<img class="imgBackground" src="img/traffic-332857_1920.jpg" alt="Code Factory Vienna">	
+			<div class="divDesc">
+				<p>Un-complicating car coverage</p>
+				<pre><code>
+				Understanding your coverage options shouldn't be so hard.
+				We'll guide you through available coverage types,
+				starting with who and what is covered.
+				</code></pre>
+			</div>
+		</div>
+		<div id="divForm">
+			<p class="title">Car insurance</p>	
+			<div class="form">
+				<pre><code>
+					Create Coverage begins
+					with a custom quato
+				</code></pre>
+				<div class="items">
+					<div class="item">
+						<p class="itemTitle">Your name:</p>
+						<input id="name" class="inputData" type="text" name="name">
+					</div>
+					<div class="item">
+						<p class="itemTitle">Age:</p>
+						<input id="age" class="inputData" type="number" name="Age">					
+					</div>
+					<div class="item">
+						<p class="itemTitle">Country:</p>
+						<select id="Country" class="inputData" name="Country" id="Country">		        
+					        <option value="starter" selected>Choose</option> 
+					        <option value="1">Austria</option> 
+					        <option value="2">Hungary</option> 
+					        <option value="3">Greece</option> 
+					    </select>					
+					</div>
+					<div class="item">	
+						<p class="itemTitle">Horsepower of your car:</p>
+						<input id="Horsepower" class="inputData" type="number" name="Horsepower">				
+					</div>
+						
+				</div>
+				<div id="calculate">
+					<input type="button" onclick="calculateCoverage()" name="calculate" value="calculate">
+				</div>
+				<p id="result">Printrd calculatation goes here</p>
+			</div>
+		</div>
+		<div class="divList">
+			<div class="divDetail">
+				 <p class="title1">AWhat comes standard</p>				
+				 <p class="lst">The coverage you need</p>
+				 <ul class="lst">
+					<li>Bodily Injury Liability</li>
+					<li>Property Damage</li>
+					<li>Medical Payments</li>					
+				</ul>				  
+				<p class="title3">Benefits</p>
+				<pre>12-month rate guarantee | 24/7 customer
+				    service | Lifetime Repair Guarantee</pre>
+			</div>
+			<div class="divDetail">
+				<p class="title1">Add-on protection & coverage</p>
+				<p class="lst">For more peace of mind</p>
+				<ul class="lst">
+					<li>Better Car Replacement</li>
+					<li>Towing & Labor</li>
+					<li>Rental Car Coverage Earned</li>					
+				</ul>				  
+				<p class="title3">Benefits</p>
+				<pre>Accident Forgiveness' | New Car
+					ReplacementTM of</pre>
+			</div>
+		</div>
+	</div>		
+	</div>
+	<footer>
+		<nav class="Menu navFooter">
+				<ul class="main">
+					<li><a href="#" title="home">Home</a></li>
+					<li><a href="team.html" title="Team">Team</a></li>
+					
+				</ul>
+		</nav>
+		<div id="Footer">
+			<div id="divFooterLogo">
+				<img class="FooterLogoRight" src="img/logo-inv.png" alt="Code Factory Vienna">
+			</div>				
+			<div id="divFooterTitle">
+				<p>Sepide Nickmanesh- CodeFactory 2020</p>
+			</div>				
+		</div>
+	</footer>
+</body>
+</html>
